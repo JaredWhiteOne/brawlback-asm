@@ -6,9 +6,6 @@ on:
   pull_request:
     branches: [ "master" ]
 
-env:
-  BUILD_TYPE: Debug
-
 jobs:
   build:
     name: ubuntu-20.04
